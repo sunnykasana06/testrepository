@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test thread-count="5" name="Command line test a3f9137c-aef1-4c76-9bc7-4e6e59f602c4(failed)">
+    <classes>
+      <class name="org.testing.TestScripts.TC5">
+        <methods>
+          <include name="close"/>
+          <include name="TC5"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC5 -->
+      <class name="org.testing.TestScripts.TC6">
+        <methods>
+          <include name="close"/>
+          <include name="TC6"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC6 -->
+      <class name="org.testing.TestScripts.TC4">
+        <methods>
+          <include name="close"/>
+          <include name="before"/>
+          <include name="TC5"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC4 -->
+      <class name="org.testing.TestScripts.TC3">
+        <methods>
+          <include name="close"/>
+          <include name="TC3"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC3 -->
+      <class name="org.testing.TestScripts.TC2">
+        <methods>
+          <include name="close"/>
+          <include name="TC2"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC2 -->
+      <class name="org.testing.TestScripts.TC8">
+        <methods>
+          <include name="close"/>
+          <include name="login"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC8 -->
+      <class name="org.testing.TestScripts.TC7">
+        <methods>
+          <include name="close"/>
+          <include name="login"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC7 -->
+    </classes>
+  </test> <!-- Command line test a3f9137c-aef1-4c76-9bc7-4e6e59f602c4(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
